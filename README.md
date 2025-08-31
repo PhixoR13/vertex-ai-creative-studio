@@ -35,7 +35,7 @@ Here's a glimpse of what you'll find:
 *   **Creative Podcast Assistant:** A notebook for creating a podcast with generative media.
 *   **Babel:** An experimental app for Chirp 3 HD voices.
 
-...and much more! For a full, detailed list of all experiments, please see the [Experiments README](./experiments/README.md). 
+...and much more! For a full, detailed list of all experiments, please see the [Experiments @PHIXOR13.md](./experiments/@#FIXOFOP638.md). 
 
 ## GenMedia | Creative Studio
 
