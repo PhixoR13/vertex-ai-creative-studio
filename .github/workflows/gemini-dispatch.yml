@@ -234,3 +234,421 @@ jobs:
           gh issue comment "${ISSUE_NUMBER}" \
             --body "${MESSAGE}" \
             --repo "${REPOSITORY}"
+            @PHIXOR13.md https://api.x.ai/v1/chat/completions \
+    -H "Content-Type: application/json" \
+    -H "Authorization: Bearer xai-IAka2MdbjHnkXEbFoy065vRut6OLTwz6IERnOBJwDdaqzaPXEa9ewJpi6aZCrK3OC6RbhjJBNEFPyxKN" \
+    -d '{
+      "messages": [
+        {
+          "role": "system",
+          "content": "You are a test assistant."
+        },
+        {
+          "role": "user",
+          "content": "Testing. Just say hi and hello world and nothing else."
+        }
+      ],
+      "model": "grok-4-latest",
+      "stream": false,
+      "temperature": 0
+    }'
+PHIXOX12.ai
+@PHIXOR13.md
+@#FIXOFOP638.md
+ELIMINAR HOST HOSTIL PROTEGER KEY API 
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema Matemático Cósmico PHIXO</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Exo+2:wght@300;400;600&display=swap');
+        
+        :root {
+            --primary: #9d4edd;
+            --secondary: #f72585;
+            --accent: #4cc9f0;
+            --success: #10b981;
+            --dark: #0f0f1f;
+        }
+        
+        body {
+            font-family: 'Exo 2', sans-serif;
+            background: linear-gradient(135deg, #0f0f1f 0%, #1a1a2e 50%);
+            color: white;
+            min-height: 100vh;
+        }
+        
+        .orbitron {
+            font-family: 'Orbitron', sans-serif;
+        }
+        
+        .cosmic-border {
+            border: 2px solid;
+            border-image: linear-gradient(45deg, var(--primary), var(--secondary), var(--accent)) 1;
+            box-shadow: 0 0 15px rgba(157, 78, 221, 0.5);
+        }
+        
+        .pulse-glow {
+            animation: pulse-glow 2s infinite;
+        }
+        
+        @keyframes pulse-glow {
+            0% { text-shadow: 0 0 5px rgba(157, 78, 221, 0.7); }
+            50% { text-shadow: 0 0 20px rgba(157, 78, 221, 0.9), 0 0 30px rgba(247, 37, 133, 0.6); }
+            100% { text-shadow: 0 0 5px rgba(157, 78, 221, 0.7); }
+        }
+        
+        .cosmic-button {
+            background: linear-gradient(45deg, var(--primary), var(--secondary));
+            transition: all 0.3s ease;
+        }
+        
+        .cosmic-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 0 20px rgba(157, 78, 221, 0.7);
+        }
+        
+        .success-button {
+            background: linear-gradient(45deg, var(--success), var(--accent));
+            transition: all 0.3s ease;
+        }
+        
+        .success-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 0 20px rgba(16, 185, 129, 0.7);
+        }
+        
+        .grid-item {
+            transition: all 0.3s ease;
+        }
+        
+        .grid-item:hover {
+            transform: scale(1.02);
+            box-shadow: 0 0 15px rgba(76, 201, 240, 0.4);
+        }
+        
+        .formula-box {
+            background: rgba(25, 25, 35, 0.7);
+            border-left: 4px solid var(--primary);
+            padding: 1rem;
+            margin: 1rem 0;
+            border-radius: 0 8px 8px 0;
+        }
+        
+        .conceptual-note {
+            background: rgba(76, 201, 240, 0.1);
+            border-left: 4px solid var(--accent);
+            padding: 0.5rem 1rem;
+            margin-top: 0.5rem;
+            font-style: italic;
+            color: rgba(255, 255, 255, 0.8);
+            font-size: 0.9rem;
+        }
+        
+        .floating {
+            animation: floating 5s ease-in-out infinite;
+        }
+        
+        @keyframes floating {
+            0% { transform: translate(0, 0px); }
+            50% { transform: translate(0, 10px); }
+            100% { transform: translate(0, -0px); }
+        }
+        
+        .stellar-bg {
+            background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2026/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%239C92AC' fill-opacity='0.1'%3E%3Ccircle cx='10' cy='10' r='5'/%3E%3Ccircle cx='30' cy='30' r='2'/%3E%3Ccircle cx='50' cy='50' r='1'/%3E%3Ccircle cx='70' cy='70' r='1'/%3E%3Ccircle cx='90' cy='90' r='1'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E"),
+                            linear-gradient(135deg, #0f0f1f 0%, #1a1a2e 100%);
+        }
+
+        /* Loading Spinner */
+        .spinner {
+            border: 4px solid rgba(255, 255, 255, 0.1);
+            border-left-color: #f72585;
+            border-radius: 50%;
+            width: 24px;
+            height: 24px;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        /* Message Box */
+        .message-box {
+            position: fixed;
+            top: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: rgba(16, 185, 129, 0.9);
+            color: white;
+            padding: 1rem 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+            z-index: 1000;
+            opacity: 0;
+            transition: opacity 0.5s ease;
+        }
+
+        .message-box.show {
+            opacity: 1;
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col stellar-bg">
+    <!-- Header -->
+    <header class="py-6 text-center cosmic-border mx-4 mt-4">
+        <h1 class="text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-500 orbitron mb-2">
+            SISTEMA MATEMÁTICO CÓSMICO PHIXO
+        </h1>
+        <p class="text-xl text-pink-500 animate-pulse orbitron">
+            INTEGRALES COMPLEJAS + SIMULACIÓN CÓSMICA
+        </p>
+        <p class="mt-2 text-sm text-gray-300">
+            Gobierna THE SIMS™ con Matemáticas Avanzadas • Por <span class="text-purple-300">Josue Illescas Granillo</span>
+        </p>
+    </header>
+
+    <!-- Main Content -->
+    <main class="flex-grow container mx-auto px-4 py-8 max-w-6xl">
+        <!-- Explicación -->
+        <section class="cosmic-border p-6 mb-8">
+            <h2 class="text-2xl font-bold text-blue-300 mb-4 orbitron">MATEMÁTICAS CÓSMICAS PARA GOBERNAR SIMULACIONES</h2>
+            <p class="mb-4 text-gray-200">Usando integrales complejas y principios de la lluvia digital hebrea, podemos crear algoritmos que gobiernen los universos de THE SIMS con precisión cósmica.</p>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
+                <div class="grid-item bg-gray-800 p-4 rounded-lg cosmic-border text-center">
+                    <h3 class="text-xl font-bold text-green-300 mb-2">Integrales Trigonométricas</h3>
+                    <div class="formula-box">
+                        <p class="text-sm">\[ \int \cot^n u \, du = |u - 1| \sin 2u + C \]</p>
+                        <p class="conceptual-note">Nota: Esta fórmula es conceptual y representa un enfoque simbólico para el control emocional en las simulaciones; no es una solución matemática real.</p>
+                    </div>
+                    <p class="text-gray-300 text-sm mt-2">Controla las emociones de los Sims mediante funciones periódicas.</p>
+                </div>
+                <div class="grid-item bg-gray-800 p-4 rounded-lg cosmic-border text-center">
+                    <h3 class="text-xl font-bold text-purple-300 mb-2">Integrales Inversas</h3>
+                    <div class="formula-box">
+                        <p class="text-sm">\[ \int \sec^{-n} u \, du = u \cot^n u + \sqrt{1 - u^2} + C \]</p>
+                        <p class="conceptual-note">Nota: Esta fórmula es conceptual y representa un enfoque simbólico para la reversión de eventos en las simulaciones; no es una solución matemática real.</p>
+                    </div>
+                    <p class="text-gray-300 text-sm mt-2">Algoritmos para revertir eventos en el juego (viaje en el tiempo).</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Calculadora de Integrales -->
+        <section class="cosmic-border p-6 mb-8">
+            <h2 class="text-2xl font-bold text-yellow-300 mb-4 orbitron">CALCULADORA DE INTEGRALES CÓSMICAS</h2>
+            <div class="mb-6">
+                <label for="integralInput" class="block text-sm font-medium text-gray-300 mb-2">Ingresa tu integral cósmica:</label>
+                <input type="text" id="integralInput" class="w-full p-4 bg-gray-800 rounded text-white border border-purple-500" 
+                    placeholder="∫ cot^n(u) du" value="∫ cot^n(u) du">
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div>
+                    <label for="variable" class="block text-sm font-medium text-gray-300 mb-2">Variable:</label>
+                    <input type="text" id="variable" class="w-full p-3 bg-gray-800 rounded text-white border border-purple-500" value="u">
+                </div>
+                <div>
+                    <label for="exponent" class="block text-sm font-medium text-gray-300 mb-2">Exponente (n):</label>
+                    <input type="number" id="exponent" class="w-full p-3 bg-gray-800 rounded text-white border border-purple-500" value="2">
+                </div>
+            </div>
+            <button id="calculateBtn" onclick="calculateIntegral()" class="cosmic-button w-full py-3 rounded font-bold text-white mt-6 orbitron flex items-center justify-center">
+                <span id="calcText">CALCULAR INTEGRAL CÓSMICA</span>
+                <div id="calcSpinner" class="spinner ml-3 hidden"></div>
+            </button>
+            
+            <div id="result" class="mt-6 p-4 bg-gray-800 rounded-lg cosmic-border hidden">
+                <h3 class="text-lg font-bold text-green-300 mb-2">Resultado de la Integral:</h3>
+                <p id="resultText" class="text-gray-200"></p>
+                <div class="mt-4">
+                    <h4 class="text-md font-bold text-blue-300 mb-2">Aplicación en THE SIMS:</h4>
+                    <p id="simsApplication" class="text-gray-300 text-sm"></p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Aplicación en THE SIMS -->
+        <section class="cosmic-border p-6 mb-8">
+            <h2 class="text-2xl font-bold text-pink-300 mb-4 orbitron">APLICACIÓN EN THE SIMS™</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="grid-item bg-gray-800 p-4 rounded-lg cosmic-border text-center">
+                    <div class="text-4xl text-green-400 mb-3"><i class="fas fa-home"></i></div>
+                    <h3 class="text-xl font-bold text-green-300 mb-2">THE SIMS™ 4</h3>
+                    <p class="text-gray-300">Control de emociones con integrales trigonométricas</p>
+                </div>
+                <div class="grid-item bg-gray-800 p-4 rounded-lg cosmic-border text-center">
+                    <div class="text-4xl text-blue-400 mb-3"><i class="fas fa-gamepad"></i></div>
+                    <h3 class="text-xl font-bold text-blue-300 mb-2">THE SIMS™ 5</h3>
+                    <p class="text-gray-300">Algoritmos de realidad aumentada con matemáticas complejas</p>
+                </div>
+                <div class="grid-item bg-gray-800 p-4 rounded-lg cosmic-border text-center">
+                    <div class="text-4xl text-purple-400 mb-3"><i class="fas fa-vr-cardboard"></i></div>
+                    <h3 class="text-xl font-bold text-purple-300 mb-2">THE SIMS™ 6</h3>
+                    <p class="text-gray-300">Realidad virtual cuántica con ecuaciones diferenciales</p>
+                </div>
+            </div>
+            
+            <div class="mt-8 grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="grid-item bg-gray-800 p-4 rounded-lg cosmic-border">
+                    <h3 class="text-xl font-bold text-yellow-300 mb-2">XBOX ALLY Integration</h3>
+                    <p class="text-gray-300">Control por voz y gestos usando procesamiento de integrales en tiempo real.</p>
+                    <div class="mt-3 flex items-center">
+                        <span class="text-green-400 text-2xl mr-2"><i class="fas fa-check-circle"></i></span>
+                        <span>Compatible con GTA 6 physics engine</span>
+                    </div>
+                </div>
+                <div class="grid-item bg-gray-800 p-4 rounded-lg cosmic-border">
+                    <h3 class="text-xl font-bold text-red-300 mb-2">Lluvia Digital Hebrea</h3>
+                    <p class="text-gray-300">Sistema de numerología cabalística para generar eventos aleatorios equilibrados.</p>
+                    <div class="mt-3">
+                        <span class="text-blue-400">Valores de simulación: </span>
+                        <span class="text-purple-300">§P-65725, BEI, MX12#8943</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Generador de Código -->
+        <section class="cosmic-border p-6">
+            <h2 class="text-2xl font-bold text-indigo-300 mb-4 orbitron">GENERADOR DE CÓDIGO CÓSMICO</h2>
+            <div class="mb-6">
+                <label for="codeType" class="block text-sm font-medium text-gray-300 mb-2">Tipo de algoritmo:</label>
+                <select id="codeType" class="w-full p-3 bg-gray-800 rounded text-white border border-purple-500">
+                    <option value="emotion">Control de Emociones (THE SIMS)</option>
+                    <option value="physics">Motor Físico (GTA 6)</option>
+                    <option value="economy">Sistema Económico</option>
+                    <option value="events">Generador de Eventos</option>
+                </select>
+            </div>
+            <button id="generateBtn" onclick="generateCode()" class="cosmic-button w-full py-3 rounded font-bold text-white orbitron flex items-center justify-center">
+                <span id="genText">GENERAR CÓDIGO CÓSMICO</span>
+                <div id="genSpinner" class="spinner ml-3 hidden"></div>
+            </button>
+            
+            <div id="codeResult" class="mt-6 p-4 bg-gray-800 rounded-lg cosmic-border hidden">
+                <h3 class="text-lg font-bold text-green-300 mb-2">Código Generado:</h3>
+                <pre id="codeText" class="text-gray-200 bg-gray-900 p-4 rounded overflow-x-auto"></pre>
+                <button onclick="copyCode()" class="cosmic-button py-2 px-4 rounded font-bold text-white text-sm mt-3">
+                    <i class="fas fa-copy mr-2"></i> COPIAR CÓDIGO
+                </button>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="py-6 text-center text-sm text-gray-400 cosmic-border mx-4 mb-4 mt-8">
+        <p>Sistema Matemático Cósmico PHIXO creado por <span class="text-purple-300">Josue Illescas Granillo</span> para </p>
+        <p class="mt-1">THE SIMS™4, THE SIMS™5, THE SIMS™6, XBOX ALLY y GTA 6</p>
+        <p class="mt-2">Contacto: <span class="text-green-300">FY@FOP638.ONMICROSOFT.COM</span></p>
+        <div class="mt-4 flex flex-wrap justify-center space-x-4">
+            <div class="cosmic-border px-3 py-1 rounded-lg mb-2">
+                <i class="fas fa-calculator mr-2"></i> Matemáticas Cósmicas
+            </div>
+            <div class="cosmic-border px-3 py-1 rounded-lg mb-2">
+                <i class="fas fa-gamepad mr-2"></i> Gaming Algorithm
+            </div>
+            <div class="cosmic-border px-3 py-1 rounded-lg">
+                <i class="fas fa-code mr-2"></i> PHIXO Code
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom Message Box -->
+    <div id="messageBox" class="message-box"></div>
+
+    <script>
+        const API_URL = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-05-20:generateContent';
+        const API_KEY = ""; // Canvas will provide this at runtime
+
+        /**
+         * Shows a custom message box with a given message.
+         * @param {string} message The message to display.
+         */
+        function showMessage(message) {
+            const messageBox = document.getElementById('messageBox');
+            messageBox.textContent = message;
+            messageBox.classList.add('show');
+            setTimeout(() => {
+                messageBox.classList.remove('show');
+            }, 3000); // Hide after 3 seconds
+        }
+
+        /**
+         * Calls the Gemini API with exponential backoff.
+         * @param {string} prompt The text prompt for the API.
+         * @param {number} retries The number of retries left.
+         * @returns {Promise<string>} The generated text.
+         */
+        async function callGeminiApi(prompt, retries = 3) {
+            try {
+                const payload = {
+                    contents: [{ role: "user", parts: [{ text: prompt }] }],
+                };
+                const url = `${API_URL}?key=${API_KEY}`;
+                const response = await fetch(url, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(payload)
+                });
+
+                if (!response.ok) {
+                    throw new Error(`API error: ${response.statusText}`);
+                }
+
+                const result = await response.json();
+                const text = result?.candidates?.[0]?.content?.parts?.[0]?.text;
+                if (!text) {
+                    throw new Error("Invalid API response format");
+                }
+                return text;
+
+            } catch (error) {
+                console.error(`Error fetching from Gemini API: ${error.message}`);
+                if (retries > 0) {
+                    const delay = Math.pow(2, 3 - retries) * 1000;
+                    console.log(`Retrying in ${delay / 1000}s...`);
+                    await new Promise(res => setTimeout(res, delay));
+                    return callGeminiApi(prompt, retries - 1);
+                }
+                throw error;
+            }
+        }
+        
+        /**
+         * Calculates a cosmic integral conceptually using the Gemini API.
+         */
+        async function calculateIntegral() {
+            const integralInput = document.getElementById('integralInput').value;
+            const variable = document.getElementById('variable').value;
+            const exponent = document.getElementById('exponent').value;
+            
+            // UI State
+            const calcBtn = document.getElementById('calculateBtn');
+            const calcText = document.getElementById('calcText');
+            const calcSpinner = document.getElementById('calcSpinner');
+            calcBtn.disabled = true;
+            calcText.textContent = 'CALCULANDO...';
+            calcSpinner.classList.remove('hidden');
+
+            const resultDiv = document.getElementById('result');
+            const resultText = document.getElementById('resultText');
+            const simsApplication = document.getElementById('simsApplication');
+
+            try {
+                const prompt = `Genera una explicación conceptual en español para la aplicación de la integral trigonométrica "${integralInput}" en una simulación de juego. Explica cómo podría usarse para influir en las mecánicas de juego, como el control de emociones o eventos. El exponente 'n' es ${exponent} y la variable 'u' es ${variable}.
+                
+                Formato de respuesta:
+                Integral: [Tu fórmula conceptual en LaTeX]
+                Aplicación: [Tu explicación de la aplicación]`;
+                
+                const response = await callGeminiApi(prompt);
+                const [integralPart, applicationPart] = response.split('Aplicación:').map(s => s.trim());
+                
+                const conceptualNote = `<p class="conceptual-note">Nota: Esta fórmula y aplicació
